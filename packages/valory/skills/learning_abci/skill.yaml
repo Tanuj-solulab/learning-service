@@ -6,20 +6,24 @@ description: A learning skill.
 license: Apache-2.0
 aea_version: '>=1.0.0, <2.0.0'
 fingerprint:
-  __init__.py: bafybeiho3lkochqpmes4f235chq26oggmwnol3vjuvhosleoubbjirbwaq
-  behaviours.py: bafybeibsenevlx6zxm3ii2zqwvcqzbbsmi6edx3q6h3stug2keta37urjy
-  dialogues.py: bafybeifqjbumctlffx2xvpga2kcenezhe47qhksvgmaylyp5ypwqgfar5u
-  fsm_specification.yaml: bafybeicxvornc7gpvpotob6z46fl7qmataxydn22fr22qnb4ausfg6vppe
-  handlers.py: bafybeigjadr4thz6hfpfx5abezbwnqhbxmachf4efasrn4z2vqhsqgnyvi
-  models.py: bafybeiagzhv7jukillz5ta47pbpgu554t22uz35vsf7ez55vs7yu6f3bni
-  payloads.py: bafybeidgjtjk2hxrhrlyzpavgbtz3wnjxoqfdw4lqkoty5whd4zzb473he
-  rounds.py: bafybeictdk3lz32inaynu2lkragkr525mgaw4t66lrvl3mmlpzerq77t6i
+  __init__.py: bafybeidvwmcv6qq57eizbh6zol4aoqpjgfnfktw4irtaecmgibc4ikryq4
+  behaviours.py: bafybeigezrl3dofjho5otysgzg644j4x6kk3gjkxep2f5httt3ymdtzlqi
+  dialogues.py: bafybeibbir7usmm3cxo42edjvnfx4tszqgow2nxusa55kp4a5axaomfvse
+  fsm_specification.yaml: bafybeihkkkezgdok5y3qr3qyi73h3dxvnclxyauy7v5nt2btdfvlcct76y
+  handlers.py: bafybeifaxd5x2wg6v2ni4cml34xjuxipuzvqakdmjxxfikuw2j3bpatotq
+  models.py: bafybeidejxngr73igsjevawlbofno67q75btdnncojt7ma734nyohe7y74
+  payloads.py: bafybeifzm6zg7jevciqtnzmwpojm4436joa6p4bnw4nltvw54bey7ahwey
+  rounds.py: bafybeic6hempghytcksdozpsmdpz6iciks3lylzawhpe7emopymfhzvfh4
 fingerprint_ignore_patterns: []
 connections: []
-contracts: []
-protocols: []
+contracts:
+- valory/gnosis_safe:0.1.0:bafybeiakydsxx4j7oxwyucnzixlrhvfbje5cdjl6naiiun4aommdfr5pkq
+protocols:
+- valory/contract_api:1.0.0:bafybeidgu7o5llh26xp3u3ebq3yluull5lupiyeu6iooi2xyymdrgnzq5i
+- valory/ledger_api:1.0.0:bafybeihdk6psr4guxmbcrc26jr2cbgzpd5aljkqvpwo64bvaz7tdti2oni
 skills:
 - valory/abstract_round_abci:0.1.0:bafybeigud2sytkb2ca7lwk7qcz2mycdevdh7qy725fxvwioeeqr7xpwq4e
+- valory/transaction_settlement_abci:0.1.0:bafybeigw5fj54hcqur3kk2z2d3hke56wcdza5i7xbsn3ve55tsqeh6dvye
 behaviours:
   main:
     args: {}

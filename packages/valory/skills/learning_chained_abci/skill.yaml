@@ -6,13 +6,13 @@ description: The chained abci for the learning skill.
 license: Apache-2.0
 aea_version: '>=1.0.0, <2.0.0'
 fingerprint:
-  __init__.py: bafybeihu5y5llhaefw32jodf2nc2x5tig7cfo2fallbodv6vodczunpbve
-  behaviours.py: bafybeiagipms5gfebqysx5sl4dhydppceqv4aga64ibqgygqczbh4imyxu
-  composition.py: bafybeif4oiwvj6bzhmch6jvi4vbw3wglvirwyi7hriuddudrrw5uyglrcq
-  dialogues.py: bafybeiakqfqcpg7yrxt4bsyernhy5p77tci4qhmgqqjqi3ttx7zk6sklca
-  fsm_specification.yaml: bafybeiaj3iirt63vvmzqyohje3ho2q7l52exg3gsboft5pzl6xm7j4ki74
-  handlers.py: bafybeicru4lanvektcppxpecul4zwjfuaxseopxtsxrfzmbfaz5qk4m67q
-  models.py: bafybeidyum4mzekfezzutffm65vgc5wtudl2k3g6xjrpaibu6ajbkkqzni
+  __init__.py: bafybeiakr54srf2sqcemlwhjcygzhmw7ocl7kxigd5v67vdh32wdsp7mv4
+  behaviours.py: bafybeic3dalhvd3yraol4p6dpgxusqpqxrriztgm5p5atc6eqj2itsq5yy
+  composition.py: bafybeifnjbdu6groccvlw4trgl56wzobelmbb62cnrbd6esiopypwfnpdy
+  dialogues.py: bafybeieitih3dljokpewlio4aci42rfackqlftjcxpuqbwxd5dzu6kzace
+  fsm_specification.yaml: bafybeicabjidsjqudkuljnpcwydt6nf2esp5wax4fdecu5leuudqquswfe
+  handlers.py: bafybeif6x7retjrlpj2gcp3mqpb22l7evs7uqt67bvvsigediwzrrwaeg4
+  models.py: bafybeia6ylclnhzpfbw5pc3abpaxjomqeaiqburzgvmr4gys7gwn2bsxs4
 fingerprint_ignore_patterns: []
 connections: []
 contracts: []
@@ -22,7 +22,7 @@ skills:
 - valory/registration_abci:0.1.0:bafybeieznuear6lfqu5lzz2ba47nvr7fstyvebam2tngoklzb7itg7xzxe
 - valory/reset_pause_abci:0.1.0:bafybeiadqtlfjx3fjxro4djc2uv2r2mgvzfva2irsdi2oh6lozjlskoolu
 - valory/termination_abci:0.1.0:bafybeig4olfu2nw3tdasxhiiecv2qvs2kj5iuzuy3jecc5puvh5r7gnvqe
-- valory/learning_abci:0.1.0:bafybeie2r6ilbblh67lqu5qbhgh6wsbpfry6kekobhwgezdubkumrcar4y
+- valory/learning_abci:0.1.0:bafybeihwlwv6h3lns2arlh47eg2tpfhn543m7bzmdeaphhtlsqwejc3wfm
 - valory/transaction_settlement_abci:0.1.0:bafybeigw5fj54hcqur3kk2z2d3hke56wcdza5i7xbsn3ve55tsqeh6dvye
 behaviours:
   main:
